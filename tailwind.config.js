@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Siemreap: ['Siemreap', 'sans-serif'],
+        Dangrek: ['Dangrek','sans-serif'],
+      },
       scrollBehavior: ['responsive'],
       keyframes: {
         scaleFade: {

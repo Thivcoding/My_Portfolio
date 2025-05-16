@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaXmark } from 'react-icons/fa6';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+
 const NavItem = [
   { label: "Home", href: "/" },
   { label: "Skill", href: "/skill" },
@@ -10,6 +11,7 @@ const NavItem = [
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation(); // 🔥 get current path
 
   const handleToggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -29,7 +31,14 @@ const Nav = () => {
         {/* Desktop menu */}
         <ul className='hidden lg:flex gap-14 items-center uppercase font-semibold'>
           {NavItem.map((item, index) => (
-            <li key={index} className='text-white hover:scale-125 transition-transform duration-300'>
+            <li
+              key={index}
+              className={`hover:scale-125 transition-transform duration-300 ${
+                location.pathname === item.href
+                  ? 'text-yellow-400 underline underline-offset-4'
+                  : 'text-white'
+              }`}
+            >
               <Link to={item.href}>{item.label}</Link>
             </li>
           ))}
@@ -55,7 +64,14 @@ const Nav = () => {
         >
           <ul className='flex flex-col items-center space-y-4'>
             {NavItem.map((item, index) => (
-              <li key={index} className='w-full text-center text-white uppercase font-semibold py-3 px-2 rounded-lg hover:bg-yellow-600 hover:text-black'>
+              <li
+                key={index}
+                className={`w-full text-center uppercase font-semibold py-3 px-2 rounded-lg hover:bg-yellow-600 transition-colors ${
+                  location.pathname === item.href
+                    ? 'bg-yellow-500 text-black'
+                    : 'text-white'
+                }`}
+              >
                 <Link to={item.href}>{item.label}</Link>
               </li>
             ))}

@@ -6,7 +6,7 @@ const Typewriter = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Full stack web developer", " Coding"],
+      strings: ["ហុក​ វ៉ាន់ធីវ"],
       typeSpeed: 132,
       backSpeed: 132,
       loop: true,
@@ -19,7 +19,7 @@ const Typewriter = () => {
 
   return (
     <div>
-      Thiv <span ref={el}></span> {/* The typed text will appear here */}
+      ខ្ញុំបាទឈ្មោះ <span ref={el}></span> {/* The typed text will appear here */}
     </div>
   );
 };
