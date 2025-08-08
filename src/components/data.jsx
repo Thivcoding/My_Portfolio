@@ -9,7 +9,7 @@ import bg_image3 from "./assets/image/project-eshop.png";
 import bg_image4 from "./assets/image/project-burger.png";
 import bg_image5 from "./assets/image/project-rupp.png";
 import bg_image6 from "./assets/image/project-portfolio.png";
-import bg_image7 from "./assets/image/project-News.png";
+import bg_image7 from "./assets/image/Project_News.png";
 import bg_image8 from "./assets/image/project-Skincare.png"
 
 
