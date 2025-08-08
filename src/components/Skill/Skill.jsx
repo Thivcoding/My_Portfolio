@@ -23,7 +23,7 @@ const Skill = () => {
   
 
     return (
-        <div className={`w-full h-auto lg:px-28 md:px-12 ${wrapperClasses} md:h-auto   max-sm:px-6 bg-gradient-to-r from-indigo-900 to-indigo-950`}>
+        <div className={`w-full h-auto lg:px-28 md:px-12 ${wrapperClasses} md:h-auto lg:h-[750px]   max-sm:px-6 bg-gradient-to-r from-indigo-900 to-indigo-950`}>
             <div className='w-full h-full'>
                 <div className='w-full h-[13%] flex items-end justify-start'  >
                     <h1 className='text-white lg:text-3xl md:text-3xl max-sm:text-2xl font-bold pt-10'
@@ -48,7 +48,7 @@ const Skill = () => {
                     </div>
                     {/* ផ្នែកខាងស្តាំ */}
                     <div
-                        className="lg:w-1/2 md:w-1/2 max-sm:w-full flex-col lg:h-full md:h-auto max-sm:h-full  md:py-14 max-sm:py-8 lg:py-16"
+                        className="lg:w-1/2 md:w-1/2 max-sm:w-full flex-col lg:h-full md:h-auto max-sm:h-full  md:py-14 max-sm:py-8 lg:p-0"
                             data-aos-eseing="ease-in-out"
                             data-aos="zoom-in"
                    >
