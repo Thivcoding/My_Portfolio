@@ -11,6 +11,7 @@ import bg_image5 from "./assets/image/project-rupp.png";
 import bg_image6 from "./assets/image/project-portfolio.png";
 import bg_image7 from "./assets/image/Project_News.png";
 import bg_image8 from "./assets/image/Project-Skincare.png"
+import bg_image9 from "./assets/image/Project-Zando.png"
 
 
 
@@ -66,15 +67,6 @@ export const PROJECTS = [
     { image: bg_image2 ,
         link: "https://store-condo.vercel.app/",
     },
-    { image: bg_image3 ,
-        link: "https://shop-electronics.vercel.app/",
-    },
-    { image: bg_image4 ,
-        link: "https://store-burger.vercel.app/",
-    },
-    { image: bg_image5 ,
-        link: "https://rupp-university.vercel.app/",
-    },
     { image: bg_image6 ,
         link: "https://my-portfolios-pearl.vercel.app/",
     },
@@ -83,6 +75,18 @@ export const PROJECTS = [
     },
     { image: bg_image8 ,
         link: "https://skincare-project-gray.vercel.app/",
+    },
+    { image: bg_image9 ,
+        link: "https://zando-project.vercel.app/",
+    },
+    { image: bg_image3 ,
+        link: "https://shop-electronics.vercel.app/",
+    },
+    { image: bg_image4 ,
+        link: "https://store-burger.vercel.app/",
+    },
+    { image: bg_image5 ,
+        link: "https://rupp-university.vercel.app/",
     },
   ];
 

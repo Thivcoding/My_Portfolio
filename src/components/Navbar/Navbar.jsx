@@ -25,7 +25,7 @@ const Nav = () => {
     <nav className='w-full fixed top-0 z-50 backdrop-blur-xl bg-black/30 shadow-sm shadow-white lg:py-6 md:py-7 max-sm:py-6 lg:px-28 md:px-12 max-sm:px-6'>
       <div className='flex justify-between items-center font-sans'>
         <div className='text-white text-2xl md:text-3xl uppercase font-bold'>
-          Thiv Coding
+          HOK VANTHIV
         </div>
 
         {/* Desktop menu */}
